@@ -1,4 +1,6 @@
 <Configuration Product="Standard">
-<Display Level="none" CompletionNotice="no" SuppressModal="yes" AcceptEula="yes"/>
-<Setting Id="SETUP_REBOOT" Value="Never"/>
+    <Display Level="none" CompletionNotice="no" SuppressModal="yes" AcceptEula="yes" />
+    <Setting Id="SETUP_REBOOT" Value="Never" />
+    <Remove All="TRUE" />
+    <Logging Level="Standard" Path="\\inodoro3\publico\Sistemas\Office 16 Standard" />
 </Configuration>
